@@ -121,6 +121,7 @@ footer {
     background: rgba(0, 0, 0, 0.3);
     padding: 6px 10px;
     border-radius: 6px;
+    z-index: 9999;
 }
 
 /* MOBILE LAYOUT */
@@ -163,3 +164,4 @@ footer {
         text-align: center;
     }
 }
+
