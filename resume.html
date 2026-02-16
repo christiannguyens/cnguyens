@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>College Application Process</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+ <div id="clock"></div>
+
+    <div class="sidebar">
+        <a href="index.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">College Application Process</a>
+
+    </div>
+
+    <div class="content">
+        <h1>College Application Process</h1>
+<p>
+  These are all of the resources I made when applying to college! I applied to a total of 30 colleges. Feel free to explore and take inspiration each of them.
+</p>
+        <details>
+            <summary><strong>WashU Accepted Profile</strong></summary>
+            <p>This <a href="https://docs.google.com/document/d/1-pgonl9hXzZD6epctwYUNcdYmX_9r4_IkRXXcrefjJ4/edit?usp=sharing" target="_blank">Google Doc</a>
+                is my admissions profile for WashU. I applied ED2, which meant that I had to attend if I got accepted.</p>
+        </details>
+
+        <details>
+            <summary><strong>Application Spreadsheet</strong></summary>
+            <p>This <a href="https://docs.google.com/spreadsheets/d/1iAjZq3FSztMqUshAJ_mAvUuBHVsL2PcsW8P83t99U2M/edit?usp=sharing" target="_blank">Google Sheets</a>
+                was a realtime organizer for the colleges I applied to.</p>
+        </details>
+
+        <details>
+            <summary><strong>Writing Masterkey</strong></summary>
+            <p>This <a href="https://docs.google.com/document/d/1ob5lCvVc8dwa_5Qwg3rsTWG-XFdtLcJquK664s1E-U8/edit?usp=sharing" target="_blank">Google Doc</a>
+                contains all of the essays I had to write. Most of them were written in a few days.</p></p>
+        </details>
+
+        <details>
+            <summary><strong>Words of Advice</strong></summary>
+            <p>These are some tips I heard that helped me during the application process. Feel free to listen, or not. It's up to you.</p>
+            <p>1. Try to get fee waivers. All 30 of the schools I applied to were free.</p>
+            <p>2. Be niche and yourself. No one likes a basic, run of the mill applicant.</p>
+            <p>3. If you want to get into a top school and only care about its ranking/prestige, consider applying Early Decision.</p>
+            <p>4. Don't limit yourself to a set amount of schools. Apply to as many as you want. You miss 100% of the shots you don't take.</p>
+            <p>5. Have fun! Applying to college gets boring and tedious when you aren't obsessed with the process.
+            </p>
+        </details>
+        <p>
+
+        </p>
+    </div>
+
+
+</body>
+<footer>
+    Made by Christian Nguyens
+</footer>
+
+<script>
+function updateClock() {
+    const options = {
+        timeZone: "America/New_York",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit"
+    };
+
+    const now = new Date().toLocaleTimeString("en-US", options);
+    document.getElementById("clock").textContent = "CLT: " + now;
+}
+
+setInterval(updateClock, 1000);
+updateClock();
+</script>
+
+</html>

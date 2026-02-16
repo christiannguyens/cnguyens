@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+ <div id="clock"></div>
+
+    <div class="sidebar">
+        <a href="index.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">College Application Process</a>
+
+    </div>
+
+    <div class="content">
+        <h1>Projects</h1>
+
+        <details>
+            <summary><strong>Personal Website</strong></summary>
+            <p>This website is my first ever project. It was built with HTML/CSS and hosted on GitHub Pages. I used AI to teach me basic HTML.</p>
+        </details>
+
+        <details>
+            <summary><strong>Future Project(s)</strong></summary>
+            <p>This is a placeholder for future projects I hope to work on the summer before college.</p>
+        </details>
+    </div>
+
+</body>
+<footer>
+    Made by Christian Nguyens
+</footer>
+
+<script>
+function updateClock() {
+    const options = {
+        timeZone: "America/New_York",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit"
+    };
+
+    const now = new Date().toLocaleTimeString("en-US", options);
+    document.getElementById("clock").textContent = "CLT: " + now;
+}
+
+setInterval(updateClock, 1000);
+updateClock();
+</script>
+
+</html>

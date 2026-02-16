@@ -1,0 +1,165 @@
+/* GENERAL PAGE STYLE */
+body {
+    background: #0d0d0d;
+    color: #e6e6e6;
+    font-family: "Georgia", serif;
+    margin: 0;
+}
+
+/* SIDEBAR */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 180px;
+    padding: 40px 20px;
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar a {
+    color: #eee;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar a:hover {
+    color: #e6e6e6;
+}
+
+/* MAIN CONTENT */
+.content {
+    margin-left: 220px; /* space for sidebar */
+    padding: 40px;
+    max-width: 800px;
+}
+
+/* HEADERS */
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+/* EXPANDABLE SECTIONS */
+details {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+summary {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+details p {
+    margin-top: 10px;
+    color: #ccc;
+}
+
+/* LINKS */
+a {
+    color: #e6e6e6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #555;
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid #222;
+}
+
+details { margin-bottom: 40px; }
+
+section {
+    margin-bottom: 60px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 40px; /* <-- add this */
+    color: #555;
+    font-size: 14px;
+    text-align: right;
+    border-top: 1px solid #222;
+}
+
+#clock {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #ccc;
+    font-size: 16px;
+    font-family: monospace;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+/* MOBILE LAYOUT */
+@media (max-width: 768px) {
+
+    body {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 20px;
+        text-align: center;
+        border-right: none;
+        border-bottom: 1px solid #222;
+    }
+
+    .sidebar a {
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 18px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    #clock {
+        top: 10px;
+        right: 10px;
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    footer {
+        padding-right: 20px;
+        text-align: center;
+    }
+}

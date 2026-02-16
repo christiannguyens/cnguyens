@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Christian Nguyens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- LEFT SIDEBAR -->
+<div class="sidebar">
+    <a href="index.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.html">College Application Process</a>
+</div>
+
+    <div id="clock"></div>
+
+    <!-- MAIN CONTENT -->
+    <div class="content">
+
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <h1>Christian Nguyens</h1>
+            <p>Incoming Freshman @ WashU for CS + Finance</p>
+
+<p>
+    I'm a senior at Northwestern High School and I am committed to
+    <a href="https://wustl.edu" target="_blank">Washington University in St. Louis</a>.
+</p>
+
+<p>
+    Initially, my high school goals aligned with engineering, but my newfound
+    interest in finance led me to explore the intersection between tech and business through
+    <a href="https://sites.wustl.edu/businesspluscs/" target="_blank">WashU's Joint Program</a>.
+</p>
+
+<p>
+    I am a product of immigrant parents, and I was born and raised in a Vietnamese household based in South Carolina,
+    just about 30 minutes south of
+    <a href="https://www.charlottenc.gov/" target="_blank">Charlotte</a>.
+</p>
+
+<p>
+    I like League of Legends, Teamfight Tactics, eating, and doomscrolling. Feel free to contact me through any of the methods below. The best way to reach me is through my email.
+</p>
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: nguyenschristian@gmail.com</p>
+            <p><a href="https://www.linkedin.com/in/christian-nguyens-04965a233/" target="_blank">LinkedIn</a></p>
+            <p><a href="https://www.instagram.com/chr1sti6n/" target="_blank">Instagram</a></p>
+        </section>
+
+    </div>
+<footer>
+    Made by Christian Nguyens
+</footer>
+
+<script>
+function updateClock() {
+    const options = {
+        timeZone: "America/New_York",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit"
+    };
+
+    const now = new Date().toLocaleTimeString("en-US", options);
+    document.getElementById("clock").textContent = "CLT: " + now;
+}
+
+setInterval(updateClock, 1000);
+updateClock();
+</script>
+</body>
+
+</body>
+</html>
