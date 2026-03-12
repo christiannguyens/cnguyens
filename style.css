@@ -3,7 +3,7 @@ body {
     background: #0d0d0d;
     color: #e6e6e6;
     font-family: "Georgia", serif;
-    margin: 0;
+    margin: 2;
 }
 
 /* SIDEBAR */
@@ -23,7 +23,7 @@ body {
 .sidebar a {
     color: #eee;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .sidebar a:hover {
@@ -39,29 +39,29 @@ body {
 
 /* HEADERS */
 h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
+    font-size: 50px;
+    margin-bottom: 12px;
 }
 
 h2 {
-    margin-top: 40px;
-    font-size: 28px;
+    margin-top: 42px;
+    font-size: 30px;
 }
 
 /* EXPANDABLE SECTIONS */
 details {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     cursor: pointer;
 }
 
 summary {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     color: #fff;
 }
 
 details p {
-    margin-top: 10px;
+    margin-top: 12px;
     color: #ccc;
 }
 
@@ -75,19 +75,19 @@ a:hover {
 }
 
 footer {
-    margin-top: 60px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    margin-top: 62px;
+    padding-top: 22px;
+    padding-bottom: 42px;
     color: #555;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     border-top: 1px solid #222;
 }
 
-details { margin-bottom: 40px; }
+details { margin-bottom: 42px; }
 
 section {
-    margin-bottom: 60px;
+    margin-bottom: 62px;
 }
 
 body {
@@ -101,12 +101,12 @@ body {
 }
 
 footer {
-    margin-top: 60px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 40px; /* <-- add this */
+    margin-top: 62px;
+    padding-top: 22px;
+    padding-bottom: 42px;
+    padding-right: 42px; /* <-- add this */
     color: #555;
-    font-size: 14px;
+    font-size: 16px;
     text-align: right;
     border-top: 1px solid #222;
 }
@@ -165,5 +165,6 @@ footer {
         text-align: center;
     }
 }
+
 
 
