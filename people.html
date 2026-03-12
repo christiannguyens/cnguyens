@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>College Application Process</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <meta property="og:title" content="Christian Nguyens" />
+    <meta property="og:description" content="Incoming freshman @ WashU trying to break into CS and finance." />
+    <meta property="og:image" content="android-chrome-512x512.png" />
+    <meta property="og:url" content="https://christiannguyens.github.io/cnguyens/" />
+    <meta property="og:type" content="website" />
+</head>
+
+<body>
+
+ <div id="clock"></div>
+
+    <div class="sidebar">
+    <a href="index.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.html">College Application Process</a>
+    <a href="links.html">Links</a>
+    <a href="people.html">People</a>
+    </div>
+
+    <div class="content">
+        <h1>People</h1>
+<p>
+  These are the special people who have shaped me to who I am today. I am very thankful for all of them.
+</p>
+        <details>
+            <summary><strong>insert person</strong></summary>
+            <p>insert description</p>
+        </details>
+
+        <p>
+
+        </p>
+    </div>
+
+
+</body>
+<footer>
+    Made by Christian Nguyens
+</footer>
+
+<script>
+function updateClock() {
+    const options = {
+        timeZone: "America/New_York",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit"
+    };
+
+    const now = new Date().toLocaleTimeString("en-US", options);
+    document.getElementById("clock").textContent = "CLT: " + now;
+}
+
+setInterval(updateClock, 1000);
+updateClock();
+</script>
+
+
+</html>
+
+
+
+
 
