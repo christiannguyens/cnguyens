@@ -5,6 +5,7 @@ body {
     font-family: "Georgia", serif;
     margin: 2;
     font-size: 20px;
+    line-height: 1.8;
 }
 
 /* SIDEBAR */
@@ -166,6 +167,7 @@ footer {
         text-align: center;
     }
 }
+
 
 
 
