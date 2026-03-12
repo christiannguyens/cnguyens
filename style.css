@@ -4,6 +4,7 @@ body {
     color: #e6e6e6;
     font-family: "Georgia", serif;
     margin: 2;
+    font-size: 36px;
 }
 
 /* SIDEBAR */
@@ -165,6 +166,7 @@ footer {
         text-align: center;
     }
 }
+
 
 
 
