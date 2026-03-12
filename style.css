@@ -53,6 +53,7 @@ h2 {
 details {
     margin-bottom: 22px;
     cursor: pointer;
+    font-size: 28px;
 }
 
 summary {
@@ -166,6 +167,7 @@ footer {
         text-align: center;
     }
 }
+
 
 
 
