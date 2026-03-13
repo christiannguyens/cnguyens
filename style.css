@@ -179,6 +179,9 @@ footer {
     z-index: 1;
 }
 
+#globe-container canvas {
+    background: transparent !important;
+}
 
 
 
