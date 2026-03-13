@@ -34,9 +34,11 @@ body {
 
 /* MAIN CONTENT */
 .content {
-    margin-left: 220px; /* space for sidebar */
+    margin-left: 220px;
+    margin-right: 360px; /* add this */
     padding: 40px;
     max-width: 800px;
+    flex: 1;
 }
 
 /* HEADERS */
@@ -176,6 +178,7 @@ footer {
     height: 250px;
     z-index: 999;
 }
+
 
 
 
