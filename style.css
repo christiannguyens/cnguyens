@@ -4,7 +4,7 @@ body {
     color: #e6e6e6;
     font-family: "Georgia", serif;
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
 }
 
@@ -171,14 +171,16 @@ footer {
 }
 
 #globe-container {
-    position: fixed;
-    top: 55%;
+    position: absolute;
+    top: 50%;
     right: 20px;
     transform: translateY(-50%);
-    width: 280px;
-    height: 280px;
+    width: 500px;
+    height: 500px;
     z-index: 999;
+    overflow: visible;
 }
+
 
 
 
