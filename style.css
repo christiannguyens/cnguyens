@@ -169,9 +169,14 @@ footer {
 }
 
 #globe-container {
+    position: fixed;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
     width: 300px;
     height: 300px;
 }
+
 
 
 
