@@ -57,6 +57,34 @@
             <p><a href="https://genius.com/artists/Yel-kor" target=_"blank">my favorite singer (this may be niche)</a></p>
         </details>
 
+<div id="globelinks-container"></div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+    const container = document.getElementById("globelinks-container");
+    const width = 500;
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.setSize(width, width);
+    renderer.setClearColor(0x000000, 0);
+    container.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 1000);
+    camera.position.z = 1.4;
+
+    const geometry = new THREE.SphereGeometry(1, 32, 32);
+    const material = new THREE.MeshBasicMaterial({ color: 0x9b59b6, wireframe: true });
+    const globe = new THREE.Mesh(geometry, material);
+    scene.add(globe);
+
+    function animate() {
+        requestAnimationFrame(animate);
+        globe.rotation.y += 0.003;
+        renderer.render(scene, camera);
+    }
+    animate();
+</script>
+    
     </div>
 <footer>
 Produced by Christian Nguyens
