@@ -93,6 +93,7 @@ updateClock();
     const width = 500;
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     renderer.setSize(width, width);
+    renderer.setClearColor(0x000000, 0);
     container.appendChild(renderer.domElement);
 
     const scene = new THREE.Scene();
@@ -115,6 +116,7 @@ updateClock();
 </body>
 
 </html>
+
 
 
 
