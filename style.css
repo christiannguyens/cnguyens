@@ -177,11 +177,13 @@ footer {
     width: 500px;
     height: 500px;
     z-index: 1;
+    overflow: hidden;
 }
 
 #globe-container canvas {
     background: transparent !important;
 }
+
 
 
 
