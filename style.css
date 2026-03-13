@@ -3,7 +3,7 @@ body {
     background: #0d0d0d;
     color: #e6e6e6;
     font-family: "Georgia", serif;
-    margin: 2;
+    margin: 0;
     font-size: 20px;
     line-height: 1.5;
 }
@@ -171,13 +171,15 @@ footer {
 }
 
 #globe-container {
-    position: absolute;
-    top: 200px;
-    right: -125px; /* half off screen for the cool cut-off effect */
-    width: 250px;
-    height: 250px;
+    position: fixed;
+    top: 55%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 280px;
+    height: 280px;
     z-index: 999;
 }
+
 
 
 
