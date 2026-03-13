@@ -185,6 +185,14 @@ footer {
     z-index: 1;
     overflow: hidden;
 
+#globelinks-container {
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+    overflow: hidden;
 
 
 
