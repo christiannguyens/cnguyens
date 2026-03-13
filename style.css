@@ -35,7 +35,7 @@ body {
 /* MAIN CONTENT */
 .content {
     margin-left: 220px;
-    margin-right: 490px;
+    margin-right: 520px;
     padding: 40px;
     max-width: 600px;
     flex: 1;
@@ -172,10 +172,10 @@ footer {
 
 #globe-container {
     position: absolute;
-    top: 80px;
+    top: 60px;
     right: 20px;
     width: 500px;
-    height: 500px;
+    height: 600px;
     z-index: 1;
     overflow: hidden;
 }
@@ -183,6 +183,7 @@ footer {
 #globe-container canvas {
     background: transparent !important;
 }
+
 
 
 
