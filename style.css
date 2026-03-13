@@ -118,13 +118,10 @@ footer {
     z-index: 9999;
 }
 
-/* MOBILE LAYOUT */
 @media (max-width: 768px) {
-
     body {
         flex-direction: column;
     }
-
     .sidebar {
         width: 100%;
         height: auto;
@@ -134,18 +131,17 @@ footer {
         border-right: none;
         border-bottom: 1px solid #222;
     }
-
     .sidebar a {
         display: inline-block;
         margin: 0 10px;
         font-size: 18px;
     }
-
     .content {
         margin-left: 0;
+        margin-right: 0;
         padding: 20px;
+        max-width: 100%;
     }
-
     #clock {
         top: 10px;
         right: 10px;
@@ -153,10 +149,16 @@ footer {
         padding: 4px 8px;
         z-index: 9999;
     }
-
     footer {
         padding-right: 20px;
         text-align: center;
+    }
+    #globe-container,
+    #globeproject-container {
+        display: none;
+    }
+    h1 {
+        font-size: 36px;
     }
 }
 
@@ -182,6 +184,7 @@ footer {
     height: 400px;
     z-index: 1;
     overflow: hidden;
+
 
 
 
