@@ -187,11 +187,12 @@ footer {
 #globeproject-container {
     position: absolute;
     top: 100px;
-    right: -100px;
+    right: -400px;
     width: 400px;
     height: 400px;
     z-index: 1;
     overflow: hidden;
+
 
 
 
